@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "vanilla:entities/ender_dragon"
+        }
+      ]
+    },
+    {
+      "rolls": 64,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "custom:entities/xp"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "custom:entities/ender_dragon_ee"
+        }
+      ]
+    }
+    ]
+    }
